@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;  // Para Marshal
 using System.Windows.Forms;
 using System.Reflection.Emit;
 using System.Globalization;
+using SistemaInventarioMAREF.Clases;
 
 namespace SistemaInventarioMAREF
 {
@@ -38,7 +39,12 @@ namespace SistemaInventarioMAREF
             InitializeComponent();
             FormLogin formLogin = new FormLogin(this);
             formLogin.ShowDialog();
-            //ShowLoginForm1();
+
+            //MUESTRA LOS 'CLIENTES' EN EL DATAGRIDVIEW
+            Clases.Clientes Objetoclientes = new Clases.Clientes();
+            Objetoclientes.mostrarClientes(dataGridView_clientes);
+
+
             //this.ClientSize = new Size(1280, 720);
             this.AutoScaleMode = AutoScaleMode.Dpi;
             // Escalas
@@ -471,6 +477,18 @@ namespace SistemaInventarioMAREF
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        //BOTON AGREGAR CLEINTES
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label_title.Text = "CATALOGO DE CLIENTES";
+            FormAgregar formAgregar = new FormAgregar();
+            formAgregar.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

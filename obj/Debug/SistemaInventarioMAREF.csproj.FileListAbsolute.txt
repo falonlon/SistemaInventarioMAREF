@@ -55,3 +55,4 @@ C:\Users\Victus\source\repos\sistema\SistemaInventarioMAREF\obj\Debug\SistemaInv
 C:\Users\Victus\source\repos\sistema\SistemaInventarioMAREF\obj\Debug\SistemaI.70D51C85.Up2Date
 C:\Users\Victus\source\repos\sistema\SistemaInventarioMAREF\obj\Debug\SistemaInventarioMAREF.exe
 C:\Users\Victus\source\repos\sistema\SistemaInventarioMAREF\obj\Debug\SistemaInventarioMAREF.pdb
+C:\Users\Victus\source\repos\sistema\SistemaInventarioMAREF\obj\Debug\SistemaInventarioMAREF.FormAgregar.resources
